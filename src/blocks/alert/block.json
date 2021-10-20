@@ -1,0 +1,22 @@
+{
+	"name": "wp-simple-block/alert",
+	"category": "wp-simple-block",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": ".wp-block-coblocks-alert__title"
+		},
+		"value": {
+			"type": "string",
+			"default": ""
+		},
+		"fontSize": {
+			"type": "string",
+			"default": "20"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		}
+	}
+}

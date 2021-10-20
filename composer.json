@@ -1,0 +1,14 @@
+{
+    "name": "WPSimpleBlock",
+    "description": "Getting started with simplge Gutenberg block development.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPSimpleBlock\\Includes\\": "includes/"
+        }
+    }
+}
